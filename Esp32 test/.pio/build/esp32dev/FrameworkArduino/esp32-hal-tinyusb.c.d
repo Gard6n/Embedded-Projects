@@ -1,3 +1,3 @@
 .pio/build/esp32dev/FrameworkArduino/esp32-hal-tinyusb.c.o: \
- /home/duneworm/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-tinyusb.c \
- /home/duneworm/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/dio_qspi/include/sdkconfig.h
+ C:/Users/cooki/.platformio/packages/framework-arduinoespressif32/cores/esp32/esp32-hal-tinyusb.c \
+ C:/Users/cooki/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32/dio_qspi/include/sdkconfig.h
