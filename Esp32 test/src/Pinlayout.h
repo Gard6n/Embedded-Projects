@@ -1,20 +1,19 @@
+#pragma once
 #include <Arduino.h>
 
-class Pinlayout{
+class Layout{
 
 
 public:
-    int _pin1 = 13;
-    int _pinN = 1;
+    int _pin1;
 
-    void pinM(){
-    for (int i = 0; i < _pinN; i++){
+
+    void pin_output() const {
         pinMode(_pin1,OUTPUT);
-        }
     }
 
-    void pinout(){
-        digitalWrite(_pin1,HIGH);
+   void pin_input() const {
+        pinMode(_pin1,INPUT);
     }
 
 };
